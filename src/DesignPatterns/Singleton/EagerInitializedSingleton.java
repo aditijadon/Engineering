@@ -2,7 +2,9 @@ package DesignPatterns.Singleton;
 
 public class EagerInitializedSingleton {
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();  //Eager Initialisation
-    private EagerInitializedSingleton(){}
+    private EagerInitializedSingleton(){
+
+    }
     public static EagerInitializedSingleton getInstance(){
         return instance;
     }
