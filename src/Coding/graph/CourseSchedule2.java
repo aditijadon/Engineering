@@ -1,4 +1,0 @@
-package Coding.graph;
-
-public class CourseSchedule2 {
-}
